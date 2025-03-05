@@ -9,6 +9,6 @@ WITH c.name AS Component,
      CASE
        WHEN (FanIn + FanOut) = 0 THEN 1
        ELSE toFloat(FanOut) / (FanIn + FanOut)
-       END AS Instability
+       END AS I
 RETURN Component, FanIn, FanOut, I
-  ORDER BY Instability DESC;
+  ORDER BY I DESC;
