@@ -61,8 +61,8 @@ Here you can see the results of calculations of stability metrics.
 | Web UI                         | 1      | 2       | 0.6667 |
 | Mobile UI                      | 1      | 2       | 0.6667 |
 | Balancer                       | 2      | 4       | 0.6667 |
-| Institution DB 1               | 1      | 1       | 0.5    |
-| Institution DB N               | 1      | 1       | 0.5    |
+| Institution DB 1               | 1      | 2       | 0.6667 |
+| Institution DB N               | 1      | 2       | 0.6667 |
 | Observer                       | 2      | 1       | 0.3333 |
 | Global Pool                    | 2      | 1       | 0.3333 |
 | Institution Pool               | 2      | 1       | 0.3333 |
@@ -71,9 +71,10 @@ Here you can see the results of calculations of stability metrics.
 | CDN                            | 2      | 0       | 0.0    |
 | Global Auth DB                 | 1      | 0       | 0.0    |
 | Global Auth DB Sync Replica    | 1      | 0       | 0.0    |
-| Global Meta DB                 | 1      | 0       | 0.0    |
+| Global Meta DB                 | 3      | 0       | 0.0    |
 | Global Meta DB Sync Replica    | 1      | 0       | 0.0    |
 | Global Meta DB Async Replica   | 1      | 0       | 0.0    |
 | Institution DB 1 Sync Replica  | 1      | 0       | 0.0    |
 | Institution DB N Sync Replica  | 1      | 0       | 0.0    |
+
 

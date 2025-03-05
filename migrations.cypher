@@ -143,3 +143,9 @@ CREATE (institution_vip)-[:DEPENDS_ON]->(institution_db_n);
 
 MATCH (institution_vip:Component {name: 'Institution VIP'}), (institution_db_n_sync_replica:Component {name: 'Institution DB N Sync Replica'})
 CREATE (institution_vip)-[:DEPENDS_ON]->(institution_db_n_sync_replica);
+
+MATCH (institution_db_1:Component {name: 'Institution DB 1'}), (global_meta_db:Component {name: 'Global Meta DB'})
+CREATE (institution_db_1)-[:DEPENDS_ON]->(global_meta_db);
+
+MATCH (institution_db_n:Component {name: 'Institution DB N'}), (global_meta_db:Component {name: 'Global Meta DB'})
+CREATE (institution_db_n)-[:DEPENDS_ON]->(global_meta_db);
